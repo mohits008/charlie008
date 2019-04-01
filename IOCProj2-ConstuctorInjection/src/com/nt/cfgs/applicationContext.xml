@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+  <!--  
+   cfg  Target bean class 
+       <bean id="wmg" class="com.nt.beans.WishMsgGenerator">
+         //<constructor-arg name="date"  ref="dt1"/>
+          <property name="date1"  ref="dt1"/>
+            <property name="date1">
+              <ref bean="dt"/>
+            </property>
+       </bean>
+       
+      cfg dependent bean class
+      <bean id="dt"  class="java.util.Date"/>
+      <bean id="dt1"  class="java.util.Date">
+       //<property name="year" value="90"/> 
+          <property name="year">
+            <value>90</value>
+          </property>
+          <property name="month" value="7"/>
+          <property name="date" value="7"/>
+      </bean>-->
+      
+   <!-- Dependent bean class cfg -->
+   <bean id="dt"  class="java.util.Date"/>
+   
+   <!-- Dependent bean class cfg -->
+   <bean id="dt1"  class="java.util.Date">
+      <property name="year"  value="110"/>
+      <property name="month"  value="6"/>
+      <property name="date"  value="20"/>
+   </bean>
+   
+   <!-- Target bean class cfg -->
+   <bean id="wish"  class="com.nt.beans.WishMsgGenerator">
+       <property name="date"  ref="dt1"/>
+     <constructor-arg name="date" ref="dt"/>
+   
+   </bean>
+</beans>         

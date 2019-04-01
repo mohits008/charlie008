@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/spring-framework-5.0.8.RELEASE/libs/spring-beans-5.0.8.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/D:/spring-framework-5.0.8.RELEASE-dist.zip!/spring-framework-5.0.8.RELEASE/docs/javadoc-api"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/IOClibrary"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
