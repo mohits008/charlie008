@@ -1,2 +1,7 @@
+GitRepositoriesView.GitDirectories=C\:\\Users\\Mohit\\git\\charlie008\\.git;C\:\\Users\\Mohit\\git\\M1\\.git;D\:\\NTSP711\\Core\\IOCPROJ1-SetterInjection\\.git;D\:\\NTSP711\\Core\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\Mohit\\git\\charlie008\\.git;C\:\\Users\\Mohit\\git\\M1\\.git;IOCPROJ1-SetterInjection\\.git;.git;
+RepositorySearchDialogDeepSearch=true
+RepositorySearchDialogSearchPath=D\:\\JDBC Prac\\CsCursorTest3
+RepositorySearchDialogSkipHidden=false
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
